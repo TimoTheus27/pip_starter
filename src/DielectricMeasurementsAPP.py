@@ -1,7 +1,9 @@
-from CSVReader import create_data_frame_with
+from MainWindow import MainWindow
+from Database import Database
 
 def main():
-    print("Hello World!")
+    print("Starting gui!")
+    ui = MainWindow()
 
 
 # This gets executed when we run the python file
